@@ -12,7 +12,7 @@ parent: blog
 <div className = "justify-content-center">
     Alright, so this is my official SECOND post for my blog. A lot of work has been done and let me tell you all about it!  It might seem like that I haven't really changed the site at all, but really I have made a whole migration from my old bootstrap html template to a gatsby, a static-site-generator and man was it a pain in the ass. So first... let me tell you why I did this in the first place. I started my blog back in June because of a youtube channel called "Coding with Lewis". I'm going to attach the video here: 
     <figure align = "center">
-    <iframe width="100%" height="500" src="https://www.youtube.com/embed/Jm5s6N0R0pM" title="This is the best first project for programmers 👩‍💻 #technology #programming #software #career" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="70%" height="450" src="https://www.youtube.com/embed/Jm5s6N0R0pM" title="This is the best first project for programmers 👩‍💻 #technology #programming #software #career" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption align = "center" ><b> The Best First Project for Programmers, Coding with Lewis </b> </figcaption>
 
 </figure>
