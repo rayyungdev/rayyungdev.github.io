@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Rayyungdev Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Jul 2022 09:14:35 GMT</lastBuildDate><item><title><![CDATA[MVP Gatsby Website Finally Complete!]]></title><description><![CDATA[In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programing project should be a blog. Not…]]></description><link>null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</link><guid isPermaLink="false">null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 425px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 79.11392405063292%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD9ElEQVQ4y2XR629TZQDH8b40MfGdL4woAQNBHc7gdFwGbAKOy1g6CDjYza3r7Zy26+k2VpD19HZONwjb2p62p924yQYTx9UwdqNo4qbCUC4z6sSR+I98TVsCJr745Xn3eX6/5zH0d9vp9wkM5CKLRGWBqGwn5heIBwS0oEAiJJIMOUkGnQxGJL607sdrriETcaGHBfSwPZ9U2I4hmkdEYn4HWtBFzC/+Hws7SYScDPZ4OGo2UvHeCg6XFpPx29EVB3pYfIEaYrKDWMBJ7jzhbSUZdqEFHcQDIlpQJBFy5LF0xE2/z8LeT9Zg3VmBd3sZ57ta0HtcpP/T0hAP5G535SfXbFqPdKgSLWAnpbrJRCQyPR7SqpvBXgmTsQxL1Va6Du7FvL6UuKOBwd429JD9JagFneSiqy5MuyqpLt2AVLcTpb2B42It7qYqTPsrMJYXseej5fQIdXhrjdi2bEFtPUBafTk5FbZhyM3Rwk4yvRLe1lo+K9mKsbyM3RtWc2BHCcLnFdRVFrOr9B1qNq7gWP02hJ2b8e6pJNXVTDIskM6/o1AAc2+WUFyk1DYGfDbKiz9k09rVVJUVoXQ50Hu6UF01fLzmLcqLlyFUrSUi1HD6uJmRUx6isvl5SzupUA5U2kiqhegRN3s2FvP6a6/w7qqVJE/28tejWb5J+Vj+xqts27yWlGxlfmaYxfmbfHc9gRawoCsFLBmyYniB9Uj0+ezs2lTE+6vepLRkHdcunOb+1DDTo3FGEkFGB3tZmBvn6cNpnj3OsvR4hovaUTS/uQAG86CbpCKR6e1APWLiUHU1fSGZ7rY2tCNWWj5dSXvten6aHOH3e5PMZy+zMHeDxV8mWHo0zc1zKjFfC8mQjUTAkpsskVQ86JF2BmQHtkYLna6jdAod1Jd8QHeLkYy/Dt3fzIPsZSYuRcleG+JB9msW58cZHzlRAIPWl2BK9ZBUPeiqhw6biOmwFWuTSMPegyhSG2ND/Uxc0pifucjdqzrZqxnmbp9nYe4a2Ssx4rLpOWjO/XJhcr6lKiFLIpZGkaYDTezbvpumaiORDoFLiQC3Rgby7b6/eYbZ8bMszI7x5IdRhiIiCdlcaJiKtJNLMizlwb5uF2KzHXO9FVNtM64vGglJLfQdE0irRxiO+bhxRuHH8dP8ee8G//x2hztjUeK52TnQW7WDuM9B+mRnfnpKcdNpM2M6ZMLS0IqjuSXfOhrs4quon2/Pn+TnyQsszt9i6dEUS4+nWZgbI6PYSMitGA4uext7yToC9fuIy07SajsBScDRbMbn8ZA+pXD9gs74aIaZq2d5cPcKf9y/zdNfp/n74TRPH07x7MkMEyMn0Hwm/gX4XxoXD6I6lgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kiki&quot; title=&quot;Kiki&quot; src=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; srcset=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/c26ae/Kiki.png 158w,
+/static/b28ef7151e69ffbca1698b9b77eeae4a/6bdcf/Kiki.png 315w,
+/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png 425w&quot; sizes=&quot;(max-width: 425px) 100vw, 425px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; Kiki&apos;s Thousand Mile Stare represents my own frustration &lt;/b&gt; &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;div classname=&quot;justify-content-center&quot;&gt;
+    Alright, so this is my official SECOND post for my blog. A lot of work has been done and let me tell you all about it!  It might seem like that I haven&apos;t really changed the site at all, but really I have made a whole migration from my old bootstrap html template to a gatsby, a static-site-generator and man was it a pain in the ass. So first... let me tell you why I did this in the first place. I started my blog back in June because of a youtube channel called &quot;Coding with Lewis&quot;. I&apos;m going to attach the video here: 
+    &lt;figure align=&quot;center&quot;&gt;
+    &lt;iframe width=&quot;30%&quot; height=&quot;500&quot; src=&quot;https://www.youtube.com/embed/Jm5s6N0R0pM&quot; title=&quot;This is the best first project for programmers 👩‍💻 #technology #programming #software #career&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; The Best First Project for Programmaers, Coding with Lewis &lt;/b&gt; &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programing project should be a blog. Not only that, but he also suggests using the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use a template&lt;/li&gt;
+&lt;li&gt;Host the blog for free (in my case Github)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Use a Static Site Generator&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I emphasize the last bullet because this was a whole new world to me. My first iteration of my site was pure HTML that I had gotten from a template. It got me familiar with basic css stylings and it wasn’t too difficult. Not to toot my own horn too much, but I think my site looked better than the template after a few touch ups. However, I realized that if I were to create another blog post, I would need to copy and paste the blog post template each and every time, then go into that code and change specific portions. And this is where the beauty of a static site generator comes in, where that process is streamlined done given that I have a blog template and some source data.&lt;/p&gt;
+&lt;p&gt;While this was supposed to simplify the process… I struggled a lot. You see, the reason why this site didn’t change too much is because I was stubborn. I didn’t want to find a new gatsby template. I wanted my current one! With the help of my pal Anshul, I realized that all I really needed was the css style sheet and I could recreate my old site with gatbsy. Then, I took the ideas from the template and converted them into components.&lt;/p&gt;
+&lt;p&gt;I’m going to try to not get too specific here because I want to discuss that in my Featured Project section, but I do want to tell you what I’ve learned.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I learned a lot about plug-ins and how I need them to create dynamic images/pages&lt;/li&gt;
+&lt;li&gt;I learned how to make react components to make template creation easier.&lt;/li&gt;
+&lt;li&gt;I learned the basics of graphql and finally figured out how to use localhost/__graphql&lt;/li&gt;
+&lt;li&gt;And the worst/best of it is that I learned how crazy &lt;strong&gt;1 small typo&lt;/strong&gt; can drive you when it doesn’t break your code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anyway, I had a lot of fun doing this and I hope to update you all with more projects in the near future!
+:) See you guys soon.&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[HTML to Gatsby Migration]]></title><description><![CDATA[What were the Changes I had discussed some changes in my blogpost, but given that this is my project section, this is I did specifically…]]></description><link>null/projects/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/Introduction/</link><guid isPermaLink="false">null/projects/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/Introduction/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;What were the Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I had discussed some changes in my blogpost, but given that this is my project section, this is I did specifically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Components:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Header&lt;/li&gt;
+&lt;li&gt;Navbar
+&lt;ul&gt;
+&lt;li&gt;I removed some things from the original navbar because I just didn’t see the point. I might throw in the page button again, but until I have like 5 posts, I just don’t see it being necessary just yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sidebar&lt;/li&gt;
+&lt;li&gt;Layout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Pages:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This is for ongoing projects, but I have 3 different routes that I’m still working on:
+&lt;ul&gt;
+&lt;li&gt;Blogs
+&lt;ul&gt;
+&lt;li&gt;specifically for my blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Projects
+&lt;ul&gt;
+&lt;li&gt;specifically for my projects (like this), although I really only put this here so I would have a reason for my banner/carousel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interview
+&lt;ul&gt;
+&lt;li&gt;Honestly, not necesarry but this will be changed up later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;My goal for this section later is to designate specific templates depending on some things…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[FAQ]]></title><description><![CDATA[Well you pressed the button here… and I didn’t work on this yet…]]></description><link>null/interviews/FAQ/</link><guid isPermaLink="false">null/interviews/FAQ/</guid><pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Well you pressed the button here… and I didn’t work on this yet…&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[My First Blog Post]]></title><description><![CDATA[My path so far… So after 7 long long years, I’m finally done with both college and graduate school. I definitely feel more free, although…]]></description><link>null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/first-post/</link><guid isPermaLink="false">null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/first-post/</guid><pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.202531645569614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFiNoroB//EABoQAAICAwAAAAAAAAAAAAAAAAACAQMTIjL/2gAIAQEAAQUCssfGk2QbDidH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAECAQE/ARF//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECERAhMf/aAAgBAQAGPwJ1ojcjqHn/xAAaEAADAAMBAAAAAAAAAAAAAAABETEAEHHh/9oACAEBAAE/IXZEquUCCIRMfm0W4Nf/2gAMAwEAAgADAAAAEGzf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxBtXCn/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EEeiH//EAB4QAAEEAQUAAAAAAAAAAAAAAAEAETFxURAhQYGx/9oACAEBAAE/EBn8ZhDmrQkXLqHDmThAm5AsOnughC//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Presenting my roommate&amp;#39;s adorable cat, Beyonce!&quot;
+        title=&quot;Presenting my roommate&amp;#39;s adorable cat, Beyonce!&quot;
+        src=&quot;/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg&quot;
+        srcset=&quot;/static/7c31686965b5c642207f9fcd9f06513b/ff44c/beyonce.jpg 158w,
+/static/7c31686965b5c642207f9fcd9f06513b/a6688/beyonce.jpg 315w,
+/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg 630w,
+/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg 720w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;&lt;strong&gt;My path so far…&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;So after 7 long long years, I’m finally done with both college and graduate school. I definitely feel more free, although admittedly still stressed about my future employment opportunities, but hey, baby steps! This is why I decided to start this blog; to continue my journey of learning and also have a way to display what I’ve learned and what I’m working on. At the moment it’s built with only html, but I hope to move this to Node.js as I get more familiar with it. If you’re wondering who the adorable cat is in both the top and bottom photo; the top photo is my roommate’s lovely foster cat, Beyonce. The one below is my adorably fat cat, Kiki. I figured that their photos would add a bit more flare to my blog.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 607px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.9873417721519%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxElEQVQ4yx2SW0+TBwCG+zsWk2VT49QhuLgOqQMHKJKwqSEaT1OiEzwgw0EFW3qyZ9pSSun58PXrubRAgVKhIC2Yibp5gW7LuNmW7Yc8S7h781w8yZO8kt82l/mwWWb31RrluA+rVsXUpBO9VoNKqUA5OsLQg3uIfg/TE3Z0GjU2ixm/ZxrTMx3NX37Bt63NXO48w+XOdiQ7G0vsVEtsFjOY5IPolQpKi4sIkQhWs4lsMkHI42ajWkUURURBIJ/LsVAs7m3psaM0Ha+n7aSUa10dSN5XS+yszREzq+i9dJEzJ7/i2IH91B86QN3B/cg+P4Lhzg1O1R3m0Mf7qD/4KQf2fcSJwwc5K23YEx4/fIgzTY1cOtuKZLecYrec5M9KgefxIAtiiKR/igtn22g48hmy4w1MPO5n7IfrXGqT8eDKeYZuX+VWVzvnZI0c2f8J7U1SOmSNdDRJkdQ8z/h7e53dlxX+elvj3WKWf97W0A4+5MbF77CpRnlRSLFdnsWpfkLIqmVjRqS3u4vWRinn20+zGvcxH52mUyZFsmhXspWNEFQ8JqAeZm5cx4J7nJzPwYzHznomymo6ylYxx+7rGjGHgahxjPmAk+6ONh71XGN3e40/XpZxaeRIfP3XSejkpO165v0TLIdcFP0OlgUPy6KfcjzIkuBjIeqjNpsk67LgefqYhE3LhfZvMCuG+ff9Nju1Ev99eI0kqR9mPR3kzfMC7ypFqtko5ZiHlNNA3udkczZFJS2wUUixmhGI2vSkJgzI795EWl/H2KN7/P5yhWxgkl/WFpFU81HWMiFcih9xKwZYibnJuy2o+25iHn7E80SIpZh/LzsfcOHQjhCwqJH33uJE3VHOtci4c6WbztNf8333eSRFrwW/cgBz31UCygEiRiUezRP8ehXq/j6SkxZmvHZyHhtpt5XwuJagSYnfoKCrtZnGhnqapSdoaZRyruUUkqRxhLjtGQXvBKLdSNplxa0ZIWLVoR98iPL+bTIuM+K4juSEgWJokphNS9ikxCTvR97Xg27wPqqBXgKmMSSi7ieyHieiw4RbM0rAqME0NIBXp2BaPcpQzzWsww8I6kbwqodIOw3M+R2EzSriDj0lwc16Jshqwsd6OoAkMnqX2LiOhNPCfNhD3u8iZNEheKeYzWXJxEWinilK87NUKyu8e7PNQjbBsuhlJRmkkg7zIidQik1TzYWRROQ9zEwa926xOZfm18oSq6kIuZCXtCgQdjlw656SjwvMxIU9FrIbqRVEfl7I8Goxy9ZcgrVMkK2CwP99idSZa8e44gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A picture of my beautiful cat, Kiki. Meme credits goes to my girlfriend&quot;
+        title=&quot;A picture of my beautiful cat, Kiki. Meme credits goes to my girlfriend&quot;
+        src=&quot;/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
+        srcset=&quot;/static/66cbf930401551f4e62f0c632e70e029/c26ae/Kiki_2.png 158w,
+/static/66cbf930401551f4e62f0c632e70e029/6bdcf/Kiki_2.png 315w,
+/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png 607w&quot;
+        sizes=&quot;(max-width: 607px) 100vw, 607px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;em&gt;&lt;strong&gt;What’s the plan with the Interview FAQ Section&lt;/strong&gt;&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;You might be wondering, “what’s going on with the Interview FAQ button?” I have a couple of plans for that actually, but first let me give you some background:&lt;/p&gt;
+&lt;p&gt;As you already know, I don’t have that much web development experience. I did go to school for 7 years, so you’d think I would have something to show for it, especially if a good portion of my time spent there was programming. But, let me be honest, while I learned a lot about machine learning algorithms, I didn’t learn enough to apply them. In a way, I learned how to fly before I could run.&lt;/p&gt;
+&lt;p&gt;Also, in case you can’t already tell by my posts, I’m not good at selling myself, which makes me quite terrible at interviews, which led me to creating the FAQ Section! I wanted to practice my interviews and share my answers to the world! Kinda.&lt;/p&gt;
+&lt;p&gt;You see, now that I’m done with school, I wanted to explore my own creativity. I want to put what I learned to the test. My long term goal with that section is to create a chatbot to do interviews for me, that way I can apply the machine learning techniques that I’ve learned. My first idea right now is to find a way to map the user input to to my different questions and return the answer mapped to the question. Not that complex, but not bad for a beta version, right?&lt;/p&gt;</content:encoded></item></channel></rss>
