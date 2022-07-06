@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Rayyungdev Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Jul 2022 09:14:35 GMT</lastBuildDate><item><title><![CDATA[MVP Gatsby Website Finally Complete!]]></title><description><![CDATA[In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programing project should be a blog. Not…]]></description><link>null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</link><guid isPermaLink="false">null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Rayyungdev Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 06 Jul 2022 09:22:34 GMT</lastBuildDate><item><title><![CDATA[MVP Gatsby Website Finally Complete!]]></title><description><![CDATA[In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programing project should be a blog. Not…]]></description><link>null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</link><guid isPermaLink="false">null/blogs/Users/ry88/Documents/Personal/ray_thing/rayyungdev_blog/second-post/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 425px; &quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/reponame/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 79.11392405063292%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD9ElEQVQ4y2XR629TZQDH8b40MfGdL4woAQNBHc7gdFwGbAKOy1g6CDjYza3r7Zy26+k2VpD19HZONwjb2p62p924yQYTx9UwdqNo4qbCUC4z6sSR+I98TVsCJr745Xn3eX6/5zH0d9vp9wkM5CKLRGWBqGwn5heIBwS0oEAiJJIMOUkGnQxGJL607sdrriETcaGHBfSwPZ9U2I4hmkdEYn4HWtBFzC/+Hws7SYScDPZ4OGo2UvHeCg6XFpPx29EVB3pYfIEaYrKDWMBJ7jzhbSUZdqEFHcQDIlpQJBFy5LF0xE2/z8LeT9Zg3VmBd3sZ57ta0HtcpP/T0hAP5G535SfXbFqPdKgSLWAnpbrJRCQyPR7SqpvBXgmTsQxL1Va6Du7FvL6UuKOBwd429JD9JagFneSiqy5MuyqpLt2AVLcTpb2B42It7qYqTPsrMJYXseej5fQIdXhrjdi2bEFtPUBafTk5FbZhyM3Rwk4yvRLe1lo+K9mKsbyM3RtWc2BHCcLnFdRVFrOr9B1qNq7gWP02hJ2b8e6pJNXVTDIskM6/o1AAc2+WUFyk1DYGfDbKiz9k09rVVJUVoXQ50Hu6UF01fLzmLcqLlyFUrSUi1HD6uJmRUx6isvl5SzupUA5U2kiqhegRN3s2FvP6a6/w7qqVJE/28tejWb5J+Vj+xqts27yWlGxlfmaYxfmbfHc9gRawoCsFLBmyYniB9Uj0+ezs2lTE+6vepLRkHdcunOb+1DDTo3FGEkFGB3tZmBvn6cNpnj3OsvR4hovaUTS/uQAG86CbpCKR6e1APWLiUHU1fSGZ7rY2tCNWWj5dSXvten6aHOH3e5PMZy+zMHeDxV8mWHo0zc1zKjFfC8mQjUTAkpsskVQ86JF2BmQHtkYLna6jdAod1Jd8QHeLkYy/Dt3fzIPsZSYuRcleG+JB9msW58cZHzlRAIPWl2BK9ZBUPeiqhw6biOmwFWuTSMPegyhSG2ND/Uxc0pifucjdqzrZqxnmbp9nYe4a2Ssx4rLpOWjO/XJhcr6lKiFLIpZGkaYDTezbvpumaiORDoFLiQC3Rgby7b6/eYbZ8bMszI7x5IdRhiIiCdlcaJiKtJNLMizlwb5uF2KzHXO9FVNtM64vGglJLfQdE0irRxiO+bhxRuHH8dP8ee8G//x2hztjUeK52TnQW7WDuM9B+mRnfnpKcdNpM2M6ZMLS0IqjuSXfOhrs4quon2/Pn+TnyQsszt9i6dEUS4+nWZgbI6PYSMitGA4uext7yToC9fuIy07SajsBScDRbMbn8ZA+pXD9gs74aIaZq2d5cPcKf9y/zdNfp/n74TRPH07x7MkMEyMn0Hwm/gX4XxoXD6I6lgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kiki&quot; title=&quot;Kiki&quot; src=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; srcset=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/c26ae/Kiki.png 158w,
-/static/b28ef7151e69ffbca1698b9b77eeae4a/6bdcf/Kiki.png 315w,
-/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png 425w&quot; sizes=&quot;(max-width: 425px) 100vw, 425px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kiki&quot; title=&quot;Kiki&quot; src=&quot;/reponame/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; srcset=&quot;/reponame/static/b28ef7151e69ffbca1698b9b77eeae4a/c26ae/Kiki.png 158w,
+/reponame/static/b28ef7151e69ffbca1698b9b77eeae4a/6bdcf/Kiki.png 315w,
+/reponame/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png 425w&quot; sizes=&quot;(max-width: 425px) 100vw, 425px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
 &lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; Kiki&apos;s Thousand Mile Stare represents my own frustration &lt;/b&gt; &lt;/figcaption&gt;
@@ -77,7 +77,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg&quot;
+    href=&quot;/reponame/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -90,11 +90,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Presenting my roommate&amp;#39;s adorable cat, Beyonce!&quot;
         title=&quot;Presenting my roommate&amp;#39;s adorable cat, Beyonce!&quot;
-        src=&quot;/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg&quot;
-        srcset=&quot;/static/7c31686965b5c642207f9fcd9f06513b/ff44c/beyonce.jpg 158w,
-/static/7c31686965b5c642207f9fcd9f06513b/a6688/beyonce.jpg 315w,
-/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg 630w,
-/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg 720w&quot;
+        src=&quot;/reponame/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg&quot;
+        srcset=&quot;/reponame/static/7c31686965b5c642207f9fcd9f06513b/ff44c/beyonce.jpg 158w,
+/reponame/static/7c31686965b5c642207f9fcd9f06513b/a6688/beyonce.jpg 315w,
+/reponame/static/7c31686965b5c642207f9fcd9f06513b/828fb/beyonce.jpg 630w,
+/reponame/static/7c31686965b5c642207f9fcd9f06513b/80e3c/beyonce.jpg 720w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -110,7 +110,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
+    href=&quot;/reponame/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -123,10 +123,10 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;A picture of my beautiful cat, Kiki. Meme credits goes to my girlfriend&quot;
         title=&quot;A picture of my beautiful cat, Kiki. Meme credits goes to my girlfriend&quot;
-        src=&quot;/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
-        srcset=&quot;/static/66cbf930401551f4e62f0c632e70e029/c26ae/Kiki_2.png 158w,
-/static/66cbf930401551f4e62f0c632e70e029/6bdcf/Kiki_2.png 315w,
-/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png 607w&quot;
+        src=&quot;/reponame/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png&quot;
+        srcset=&quot;/reponame/static/66cbf930401551f4e62f0c632e70e029/c26ae/Kiki_2.png 158w,
+/reponame/static/66cbf930401551f4e62f0c632e70e029/6bdcf/Kiki_2.png 315w,
+/reponame/static/66cbf930401551f4e62f0c632e70e029/ef9e5/Kiki_2.png 607w&quot;
         sizes=&quot;(max-width: 607px) 100vw, 607px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
