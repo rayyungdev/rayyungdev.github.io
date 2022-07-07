@@ -25,10 +25,9 @@ const BlogIndex = ({data}) => {
                             <GatsbyImage
                                 image = {img}
                                 imgClassName='w-100'
-                                aspectRatio = {10/3}
                             />
 
-                            <div className = 'carousel-caption d-flex flex-column align-items-center justify-content-center'>
+                            <div className = 'carousel-caption d-flex flex-column align-items-center '>
                                 <h1 className='mb-3 text-white font-weight-bold'> Current Project: </h1>
                                 <h5 className='mb-3 text-white font-weight-bold'> {title} </h5>
                                 <div class='d-flex text-white'>
@@ -63,7 +62,7 @@ const BlogIndex = ({data}) => {
                                 <p>
                                  {post.frontmatter.description}
                                 </p>
-                                <Link to = {post.fields.slug} className="btn btn-link p-0" >Read More <i className="fa fa-angle-right"></i></Link>
+                                <Link to = {post.fields.slug} className="btn btn-link btn-outline-dark mt-4" >Read More <i className="fa fa-angle-right"></i></Link>
                             </div>
                         </div>
                     </div>
