@@ -1,5 +1,5 @@
 ---
-title: The Great Gatsby Migration
+title: The Gatsby Migration
 date: "2022-07-07"
 featuredImage: './carousel.jpg'
 template: blogtemplate

@@ -28,12 +28,14 @@ const BlogIndex = ({data}) => {
                             />
 
                             <div className = 'carousel-caption d-flex flex-column align-items-center '>
-                                <h1 className='mb-3 text-white font-weight-bold'> Current Project: </h1>
-                                <h5 className='mb-3 text-white font-weight-bold'> {title} </h5>
-                                <div class='d-flex text-white'>
-                                    <small className='mr-2' > {post.frontmatter.date} </small>
+                                <div className='mt-4 text-white font-italic'> Recently Finished Project: </div>
+                                <div className = "row mt-0"> 
+                                    <h2 className='mr-3 mt-0 text-white font-weight-bold'> {title} </h2>
+                                    <small> <Link to = {post.fields.slug} className = 'btn btn-sm btn-outline-light'> Read More </Link> </small>
                                 </div>
-                                <Link to = {post.fields.slug} className = 'btn btn-lg btn-outline-light mt-4'> Read More </Link>
+                                <div className='d-flex text-white'>
+                                    <small className='mt-0' > {post.frontmatter.date} </small>
+                                </div>
                             </div>
                         </div>
                 )})}
@@ -65,6 +67,7 @@ const BlogIndex = ({data}) => {
                                 <Link to = {post.fields.slug} className="btn btn-link btn-outline-dark mt-4" >Read More <i className="fa fa-angle-right"></i></Link>
                             </div>
                         </div>
+                        <hr/>
                     </div>
                 )})}
         </ol>
