@@ -55,6 +55,8 @@ Srini then discusses models that exist in this field, Single-vs-Multi turn, Inte
      - Admittedly I'm not compleltely confident that this model is applicable. seq2seq is a deep learning model and from my understanding of it, it will A LOT of data. You see it a lot with chatbots because the goal of a chatbot is to accept an input as a text and regurgitates a text back. If we want to get into more detail, the sentence is encoded into value, math is done to the value to take context into account, then the calculations are fed into a decoder which is the chatbot's response. In my case, I don't really know how I can implement it. And as I'm looking more into seq2seq models, it seems like it requires a large dataset.
        
        I'm keeping this on here because it might be something I look into later.... 
+
+    
 <figure align='center'>
 <img src = './spongebob-dance.gif'>
 <figcaption align = "center" ><b> We're getting somewhere!</b> </figcaption>  
