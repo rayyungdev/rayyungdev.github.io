@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Rayyungdev Blog]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 14 Jul 2022 21:32:12 GMT</lastBuildDate><item><title><![CDATA[Chatbot Model Complete]]></title><description><![CDATA[Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
-First, I…]]></description><link>null/blogs/bot-build-followup/</link><guid isPermaLink="false">null/blogs/bot-build-followup/</guid><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; Build a Bot Update! &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Hi! This is my blog that I hope will showcase my personal development and help me accomplish my future career aspirations]]></description><link>https://rayyungdev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Jul 2022 21:28:13 GMT</lastBuildDate><item><title><![CDATA[Chatbot Model Complete]]></title><description><![CDATA[Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
+First, I…]]></description><link>https://rayyungdev.github.io/blogs/bot-build-followup/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/bot-build-followup/</guid><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; Build a Bot Update! &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
 &lt;p&gt;Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
 First, I had to understand what my goal and objective, but you can read about that in my previous blog post, link [&lt;em&gt;here&lt;/em&gt;]{&lt;a href=&quot;https://rayyungdev.github.io/blogs/bot-builder/%7D&quot;&gt;https://rayyungdev.github.io/blogs/bot-builder/}&lt;/a&gt;. Once I figured out that I wanted to an intent classification model, I had to learn about how those models were built.&lt;/p&gt;
 &lt;p&gt;Originally I wanted to replicate a paper, that claimed that CBoW-SVM learning model that uses fasttext embeddings. Unfortunately, I was not able to successfully implement that since I couldn’t understand how to implemement CBoW with fasttext. After giving up on that, I found a model through kaggle, that I’ll link &lt;a href=&quot;https://www.kaggle.com/code/hassanamin/atis-intent-classification-using-svm-and-spacy/notebook&quot;&gt;&lt;em&gt;here&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -20,64 +20,53 @@ First, I had to understand what my goal and objective, but you can read about th
   &lt;/a&gt;
     &lt;/span&gt;
 &lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; Chatbot Sneakpeak&lt;/b&gt; &lt;/figcaption&gt;&lt;/figure&gt;  
-&lt;h2&gt;Stay tune for the next update!&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[The Gatsby Migration]]></title><description><![CDATA[Background When I first started this projected, I used a bootstrap HTML template from htmlcodex.com. It looked like this: As you can see…]]></description><link>null/projects/Introduction/</link><guid isPermaLink="false">null/projects/Introduction/</guid><pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;When I first started this projected, I used a bootstrap HTML template from &lt;strong&gt;&lt;a href=&quot;https://htmlcodex.com/personal-blog-template&quot;&gt;htmlcodex.com&lt;/a&gt;&lt;/strong&gt;. It looked like this:&lt;/p&gt;
-&lt;figure&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/ab02df6110497614179d4fcd38f32cbf/4b190/template.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABbg9JjYiWQ//EABsQAAIDAAMAAAAAAAAAAAAAAAIDAQQRABIT/9oACAEBAAEFArESCNLK56Hb1hSFEMJWPP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAwEBAAAAAAAAAAAAAAABAgMRITESkf/aAAgBAQAGPwK1+masl9OvpKDSxg3XE1BH/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERYSEx/9oACAEBAAE/IfW/JnSqvdRd66Z7zBR34hdFFh//2gAMAwEAAgADAAAAEDTv/8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQMBAT8QWL//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/ENhb/8QAHhABAAMAAgIDAAAAAAAAAAAAAQARITFRQWFxgaH/2gAIAQEAAT8Q2nXarj43rIt46Up+xbahForh7lbjB0sscs+ZmBtKoP1cuczaDzP/2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;template&quot; title=&quot;template&quot; src=&quot;/static/ab02df6110497614179d4fcd38f32cbf/828fb/template.jpg&quot; srcset=&quot;/static/ab02df6110497614179d4fcd38f32cbf/ff44c/template.jpg 158w,
-/static/ab02df6110497614179d4fcd38f32cbf/a6688/template.jpg 315w,
-/static/ab02df6110497614179d4fcd38f32cbf/828fb/template.jpg 630w,
-/static/ab02df6110497614179d4fcd38f32cbf/4b190/template.jpg 800w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; Original HTML template &lt;/b&gt; &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;As you can see with my blog here, it’s pretty similar. I made some changes to the CSS to make the articles wider and I removed some features/links that I thought was unnecessary, like the “blog detail” and “blog grid”. After I made these adjustments, rayyungdev.github.io v0.0.01 was born.&lt;/p&gt;
-&lt;h1 align=&quot;center&quot;&gt; Moving to Gatsby &lt;/h1&gt;
-&lt;p&gt;At this point, I had no idea how to write javascript, let alone react/gatsby, so it was a bit of a struggle. But I soon understood the pattern between my html template and other codes that I was looking at and the conversion was pretty self explanatory, like changing &lt;strong&gt;HTML’s&lt;/strong&gt; &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div class&gt;&lt;/code&gt; to &lt;strong&gt;react’s&lt;/strong&gt; &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div className&gt;&lt;/code&gt;.  Again, I’m still new to react and web-development in general so I’m sure I’m not making the most out of gatsby yet, but hey at least I’m starting something, right?&lt;/p&gt;
-&lt;p&gt;While I still didn’t understand components, plugins, etc, I did know what kind of features I wanted in my site. I knew I wanted to be able to scroll down infinitely on the home page to see my blog history. I also knew that I wanted featured-pictures from my blog posts to populate my homepage. I tried to figure out how to learn all of this by watching a Gatsby Tutorial on youtube that was 9 hours long, but I called it quits after 40 minutes. Don’t get me wrong, it was helpful, but just did not have the patience. Instead, I looked at &lt;a href=&quot;https://www.gatsbyjs.com/starters/&quot;&gt;https://www.gatsbyjs.com/starters/&lt;/a&gt; and found the templates that had the features I wanted and tried to implement them the same way, which led me to &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What were the Changes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I had discussed some changes in my blogpost, but given that this is my project section, this is I did specifically:&lt;/p&gt;
+&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt;  July 28 2022 Update: &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
+I didn&apos;t want to create a whole new post for this update because I haven&apos;t yet accomplished what I wanted to get done. Instead, I wanted to provide some updates on ways I&apos;m looking to integrate my bot to my post.  
+&lt;p&gt;But first, let’s establish what I need to get accomplished:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Components:&lt;/strong&gt;
+&lt;li&gt;I need the script to constantly run on a separate server
 &lt;ul&gt;
-&lt;li&gt;Header&lt;/li&gt;
-&lt;li&gt;Navbar
-&lt;ul&gt;
-&lt;li&gt;I removed some things from the original navbar because I just didn’t see the point. I might throw in the page button again, but until I have like 5 posts, I just don’t see it being necessary just yet.&lt;/li&gt;
+&lt;li&gt;This is because I need to set up my specific python environment, like the spaCY NLP encoder.&lt;/li&gt;
+&lt;li&gt;It takes time to start up the bot (around 5 seconds) before you can actually communicate with it.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Sidebar&lt;/li&gt;
-&lt;li&gt;Layout&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;New Pages:&lt;/strong&gt;
+&lt;li&gt;Figure out if I need to create a chat interface using Python or Gatsby
 &lt;ul&gt;
-&lt;li&gt;This is for ongoing projects, but I have 3 different routes that I’m still working on:
+&lt;li&gt;If the chat function is built with Gatsby, then I’m constantly pulling data from my python server.&lt;/li&gt;
+&lt;li&gt;If the chat funciton is built with Python, then am I just creating an entirely new site with Flask and hosting it on a separate site? Or am I just linking a component…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Find a way to integrate my bot to my blog&lt;/li&gt;
+&lt;li&gt;Maybe find a way for outside users to help me update my question bank?
 &lt;ul&gt;
-&lt;li&gt;Blogs
+&lt;li&gt;This might be where the RESTful API comes in… but eventually I want to continue stockpiling questions for my database so I can further develop my juvenile bot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Originally, I was looking into using a RESTful API with Flask because it seemed simple. It was moments later, as I was reading about RESTful when I discovered that I had no idea what I was even talking about. In case you don’t know : RESTful is a fantastic API to use when you’re just trying to obtaining organized and sorted data.&lt;br&gt;
+As the docs from microsoft says: it’s designed around &lt;em&gt;resources&lt;/em&gt;. So for example, this might’ve been feasable if I was creating a way for people to pull specific word for word interview questions and answers. And if I was going to implement so that people can interact with it, then it would be easily overloaded since each message you send to the bot would be another POST request. Basically, it sounds like it sucks trying to get realtime data.&lt;/p&gt;
+&lt;p&gt;Instead, a friend recommended that I look into Web Sockets. However, based on what I’m reading, this is not only more complex but poses more of a security risk. I’m still figuring out the minute details, but this seems like this might be it. Basically, this API is used for real-time applications like video games and chat applications, which is you know… what I’m trying to build!&lt;/p&gt;
+&lt;p&gt;Things I’m going to need to look into:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;specifically for my blog post&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Projects
+&lt;li&gt;How do I create a Websocket with Python:
 &lt;ul&gt;
-&lt;li&gt;specifically for my projects (like this), although I really only put this here so I would have a reason for my banner/carousel&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.piesocket.com/blog/python-websocket#:~:text=WebSocket%20Client%20with%20Python&amp;#x26;text=Create%20a%20new%20File%20%E2%80%9Cclient,did%20in%20our%20server%20code.&amp;#x26;text=Now%20let&amp;#x27;s%20create%20a%20Python%20asynchronous%20function%20(also%20called%20coroutine).&amp;#x26;text=async%20def%20test()%3A,build%20a%20WebSocket%20client%20connection.&quot;&gt;&lt;strong&gt;Here’s a quick link&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Interview
+&lt;li&gt;Where should I look to host this websocket?
 &lt;ul&gt;
-&lt;li&gt;Honestly, not necesarry but this will be changed up later&lt;/li&gt;
+&lt;li&gt;A friend recommended I look into &lt;a href=&quot;https://serverless.com&quot;&gt;&lt;em&gt;&lt;strong&gt;serverless&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;How should I implemenent my websocket with React
+&lt;ul&gt;
+&lt;li&gt;A quick google search gave me this &lt;a href=&quot;https://dev.to/muratcanyuksel/using-websockets-with-react-50pi&quot;&gt;&lt;strong&gt;link&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;My goal for this section later is to designate specific templates depending on some things…&lt;/li&gt;
+&lt;li&gt;What are the risks and how do I minimize it?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Building the Chatbot Model]]></title><description><![CDATA[The journey started because I suck at interviews. I find myself in a spiral of anxiety and imposter syndrome as I continously bomb my…]]></description><link>null/blogs/bot-builder/</link><guid isPermaLink="false">null/blogs/bot-builder/</guid><pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; In the Beginning... &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
+&lt;p&gt;Anyway, thank you for reading and:&lt;/p&gt;
+&lt;h2&gt;Stay tuned for the next update!&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Building the Chatbot Model]]></title><description><![CDATA[The journey started because I suck at interviews. I find myself in a spiral of anxiety and imposter syndrome as I continously bomb my…]]></description><link>https://rayyungdev.github.io/blogs/bot-builder/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/bot-builder/</guid><pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; In the Beginning... &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
 &lt;p&gt;The journey started because I suck at interviews. I find myself in a spiral of anxiety and imposter syndrome as I continously bomb my interviews.
 One weird quirk about me, is that although I feel humiliated, I feel even more motivated now to do something creative so that I can still prove to myself that I am a qualified “developer”.
 So anyway, I just bombed an interview and it has reaffirmed my distaste for them. I am now reminded again of something that I originally wanted to do: &lt;em&gt;&lt;strong&gt;create a chatbot to do the interview for me!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -169,7 +158,64 @@ So anyway, I just bombed an interview and it has reaffirmed my distaste for them
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Now going through all of this, how should I go around gathering my data? So this is probably going to suck because I think going to have to do this manually. Remember, my theory is that there are limited answers to interview questions (&lt;em&gt;unless they ask me techinical questions…&lt;/em&gt;). Once I gather the questions, I’m going to have to group them myself and give each group a unique value that represents intent. Finally, I’ll go through all the intents, pull a random question from it, then finally answer that question. That answer will be my response for the questions in that group. Hopefully, this isn’t going to be that bad.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MVP Gatsby Website Finally Complete!]]></title><description><![CDATA[In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programming project should be a blog…]]></description><link>null/blogs/gatsby-migration/</link><guid isPermaLink="false">null/blogs/gatsby-migration/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;
+&lt;p&gt;Now going through all of this, how should I go around gathering my data? So this is probably going to suck because I think going to have to do this manually. Remember, my theory is that there are limited answers to interview questions (&lt;em&gt;unless they ask me techinical questions…&lt;/em&gt;). Once I gather the questions, I’m going to have to group them myself and give each group a unique value that represents intent. Finally, I’ll go through all the intents, pull a random question from it, then finally answer that question. That answer will be my response for the questions in that group. Hopefully, this isn’t going to be that bad.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Gatsby Migration]]></title><description><![CDATA[Background When I first started this projected, I used a bootstrap HTML template from htmlcodex.com. It looked like this: As you can see…]]></description><link>https://rayyungdev.github.io/projects/Introduction/</link><guid isPermaLink="false">https://rayyungdev.github.io/projects/Introduction/</guid><pubDate>Thu, 07 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When I first started this projected, I used a bootstrap HTML template from &lt;strong&gt;&lt;a href=&quot;https://htmlcodex.com/personal-blog-template&quot;&gt;htmlcodex.com&lt;/a&gt;&lt;/strong&gt;. It looked like this:&lt;/p&gt;
+&lt;figure&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/ab02df6110497614179d4fcd38f32cbf/4b190/template.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAwb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABbg9JjYiWQ//EABsQAAIDAAMAAAAAAAAAAAAAAAIDAQQRABIT/9oACAEBAAEFArESCNLK56Hb1hSFEMJWPP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAwEBAAAAAAAAAAAAAAABAgMRITESkf/aAAgBAQAGPwK1+masl9OvpKDSxg3XE1BH/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERYSEx/9oACAEBAAE/IfW/JnSqvdRd66Z7zBR34hdFFh//2gAMAwEAAgADAAAAEDTv/8QAFREBAQAAAAAAAAAAAAAAAAAAEQD/2gAIAQMBAT8QWL//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAECAQE/ENhb/8QAHhABAAMAAgIDAAAAAAAAAAAAAQARITFRQWFxgaH/2gAIAQEAAT8Q2nXarj43rIt46Up+xbahForh7lbjB0sscs+ZmBtKoP1cuczaDzP/2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;template&quot; title=&quot;template&quot; src=&quot;/static/ab02df6110497614179d4fcd38f32cbf/828fb/template.jpg&quot; srcset=&quot;/static/ab02df6110497614179d4fcd38f32cbf/ff44c/template.jpg 158w,
+/static/ab02df6110497614179d4fcd38f32cbf/a6688/template.jpg 315w,
+/static/ab02df6110497614179d4fcd38f32cbf/828fb/template.jpg 630w,
+/static/ab02df6110497614179d4fcd38f32cbf/4b190/template.jpg 800w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;figcaption align=&quot;center&quot;&gt;&lt;b&gt; Original HTML template &lt;/b&gt; &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;As you can see with my blog here, it’s pretty similar. I made some changes to the CSS to make the articles wider and I removed some features/links that I thought was unnecessary, like the “blog detail” and “blog grid”. After I made these adjustments, rayyungdev.github.io v0.0.01 was born.&lt;/p&gt;
+&lt;h1 align=&quot;center&quot;&gt; Moving to Gatsby &lt;/h1&gt;
+&lt;p&gt;At this point, I had no idea how to write javascript, let alone react/gatsby, so it was a bit of a struggle. But I soon understood the pattern between my html template and other codes that I was looking at and the conversion was pretty self explanatory, like changing &lt;strong&gt;HTML’s&lt;/strong&gt; &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div class&gt;&lt;/code&gt; to &lt;strong&gt;react’s&lt;/strong&gt; &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div className&gt;&lt;/code&gt;.  Again, I’m still new to react and web-development in general so I’m sure I’m not making the most out of gatsby yet, but hey at least I’m starting something, right?&lt;/p&gt;
+&lt;p&gt;While I still didn’t understand components, plugins, etc, I did know what kind of features I wanted in my site. I knew I wanted to be able to scroll down infinitely on the home page to see my blog history. I also knew that I wanted featured-pictures from my blog posts to populate my homepage. I tried to figure out how to learn all of this by watching a Gatsby Tutorial on youtube that was 9 hours long, but I called it quits after 40 minutes. Don’t get me wrong, it was helpful, but just did not have the patience. Instead, I looked at &lt;a href=&quot;https://www.gatsbyjs.com/starters/&quot;&gt;https://www.gatsbyjs.com/starters/&lt;/a&gt; and found the templates that had the features I wanted and tried to implement them the same way, which led me to &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What were the Changes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I had discussed some changes in my blogpost, but given that this is my project section, this is I did specifically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Components:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Header&lt;/li&gt;
+&lt;li&gt;Navbar
+&lt;ul&gt;
+&lt;li&gt;I removed some things from the original navbar because I just didn’t see the point. I might throw in the page button again, but until I have like 5 posts, I just don’t see it being necessary just yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sidebar&lt;/li&gt;
+&lt;li&gt;Layout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New Pages:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;This is for ongoing projects, but I have 3 different routes that I’m still working on:
+&lt;ul&gt;
+&lt;li&gt;Blogs
+&lt;ul&gt;
+&lt;li&gt;specifically for my blog post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Projects
+&lt;ul&gt;
+&lt;li&gt;specifically for my projects (like this), although I really only put this here so I would have a reason for my banner/carousel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Interview
+&lt;ul&gt;
+&lt;li&gt;Honestly, not necesarry but this will be changed up later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;My goal for this section later is to designate specific templates depending on some things…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[MVP Gatsby Website Finally Complete!]]></title><description><![CDATA[In case you don’t have the patience to watch the 44 second clip, Lewis suggests that the best first programming project should be a blog…]]></description><link>https://rayyungdev.github.io/blogs/gatsby-migration/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/gatsby-migration/</guid><pubDate>Wed, 06 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 425px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/b28ef7151e69ffbca1698b9b77eeae4a/2fbbf/Kiki.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 79.11392405063292%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD9ElEQVQ4y2XR629TZQDH8b40MfGdL4woAQNBHc7gdFwGbAKOy1g6CDjYza3r7Zy26+k2VpD19HZONwjb2p62p924yQYTx9UwdqNo4qbCUC4z6sSR+I98TVsCJr745Xn3eX6/5zH0d9vp9wkM5CKLRGWBqGwn5heIBwS0oEAiJJIMOUkGnQxGJL607sdrriETcaGHBfSwPZ9U2I4hmkdEYn4HWtBFzC/+Hws7SYScDPZ4OGo2UvHeCg6XFpPx29EVB3pYfIEaYrKDWMBJ7jzhbSUZdqEFHcQDIlpQJBFy5LF0xE2/z8LeT9Zg3VmBd3sZ57ta0HtcpP/T0hAP5G535SfXbFqPdKgSLWAnpbrJRCQyPR7SqpvBXgmTsQxL1Va6Du7FvL6UuKOBwd429JD9JagFneSiqy5MuyqpLt2AVLcTpb2B42It7qYqTPsrMJYXseej5fQIdXhrjdi2bEFtPUBafTk5FbZhyM3Rwk4yvRLe1lo+K9mKsbyM3RtWc2BHCcLnFdRVFrOr9B1qNq7gWP02hJ2b8e6pJNXVTDIskM6/o1AAc2+WUFyk1DYGfDbKiz9k09rVVJUVoXQ50Hu6UF01fLzmLcqLlyFUrSUi1HD6uJmRUx6isvl5SzupUA5U2kiqhegRN3s2FvP6a6/w7qqVJE/28tejWb5J+Vj+xqts27yWlGxlfmaYxfmbfHc9gRawoCsFLBmyYniB9Uj0+ezs2lTE+6vepLRkHdcunOb+1DDTo3FGEkFGB3tZmBvn6cNpnj3OsvR4hovaUTS/uQAG86CbpCKR6e1APWLiUHU1fSGZ7rY2tCNWWj5dSXvten6aHOH3e5PMZy+zMHeDxV8mWHo0zc1zKjFfC8mQjUTAkpsskVQ86JF2BmQHtkYLna6jdAod1Jd8QHeLkYy/Dt3fzIPsZSYuRcleG+JB9msW58cZHzlRAIPWl2BK9ZBUPeiqhw6biOmwFWuTSMPegyhSG2ND/Uxc0pifucjdqzrZqxnmbp9nYe4a2Ssx4rLpOWjO/XJhcr6lKiFLIpZGkaYDTezbvpumaiORDoFLiQC3Rgby7b6/eYbZ8bMszI7x5IdRhiIiCdlcaJiKtJNLMizlwb5uF2KzHXO9FVNtM64vGglJLfQdE0irRxiO+bhxRuHH8dP8ee8G//x2hztjUeK52TnQW7WDuM9B+mRnfnpKcdNpM2M6ZMLS0IqjuSXfOhrs4quon2/Pn+TnyQsszt9i6dEUS4+nWZgbI6PYSMitGA4uext7yToC9fuIy07SajsBScDRbMbn8ZA+pXD9gs74aIaZq2d5cPcKf9y/zdNfp/n74TRPH07x7MkMEyMn0Hwm/gX4XxoXD6I6lgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -203,9 +249,15 @@ So anyway, I just bombed an interview and it has reaffirmed my distaste for them
 &lt;/ul&gt;
 &lt;p&gt;Anyway, I had a lot of fun doing this and I hope to update you all with more projects in the near future!
 :) See you guys soon.&lt;/p&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Interview FAQ]]></title><description><![CDATA[So, let me tell you something about myself. I absolutely despise interviews. I just find myself freezing up way too much especially at…]]></description><link>null/interviews/FAQ/</link><guid isPermaLink="false">null/interviews/FAQ/</guid><pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class = &apos;font-weight-bold&apos; align = &apos;Center&apos;&gt; What is this section? &lt;/h2&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Interview FAQ]]></title><description><![CDATA[So, let me tell you something about myself. I absolutely despise interviews. I just find myself freezing up way too much especially at…]]></description><link>https://rayyungdev.github.io/interviews/FAQ/</link><guid isPermaLink="false">https://rayyungdev.github.io/interviews/FAQ/</guid><pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class = &apos;font-weight-bold&apos; align = &apos;Center&apos;&gt; What is this section? &lt;/h2&gt;
 &lt;p&gt;So, let me tell you something about myself. I absolutely &lt;strong&gt;despise&lt;/strong&gt; interviews. I just find myself freezing up way too much especially at simple questions. I usually walk out of interviews questioning my own qualifications. Now I get it, I’m awful at it because I do not get enough practice interviews. It is exactly that reason which led me to creating this section.&lt;/p&gt;
-&lt;p&gt;The FAQ section here is supposed to be a list of common interview questions and my answer to them. It’s my way of practicing for interviews and also a way for recruiters to understand the type of person I am and hopefully we can both have a little laugh. To make it more fun and since I’ve wanted to focus on machine learning in general, my plan is to make this section a chat bot so you guys could in “real-time” interview me. More information about this journey will be found in a future blog post.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First Blog Post]]></title><description><![CDATA[My path so far… So after 7 long long years, I’m finally done with both college and graduate school. I definitely feel more free, although…]]></description><link>null/blogs/my-first-post/</link><guid isPermaLink="false">null/blogs/my-first-post/</guid><pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;h2 class = &apos;font-weight-bold&apos; align = &apos;Center&apos;&gt; July 28 2022 Update: &lt;/h2&gt;
+&lt;p&gt;I should probably throw this into an actual post instead of updating this here, but if you pressed this button you’re probably wondering if I updated this with something that works. And to answer your question: &lt;em&gt;kinda&lt;/em&gt;. You see, I have a working model that I created using spaCY and sklearn. You can read about that development process here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rayyungdev.github.io/blogs/bot-builder/&quot;&gt;&lt;strong&gt;Bot Builder Follow-up&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rayyungdev.github.io/blogs/bot-builder/&quot;&gt;&lt;strong&gt;Bot Builder&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Right now I’m working on a way to integrate my python script into a chatbot component that you can interact with here…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First Blog Post]]></title><description><![CDATA[My path so far… So after 7 long long years, I’m finally done with both college and graduate school. I definitely feel more free, although…]]></description><link>https://rayyungdev.github.io/blogs/my-first-post/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/my-first-post/</guid><pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
     &gt;
