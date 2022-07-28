@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'rayyungdev.github.io',
+    title: `Raymond's Personal Blog`,
     author: 'Raymond Yung',
     social: {
       github: 'rayyungdev', 

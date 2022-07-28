@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import {getImage, GatsbyImage} from "gatsby-plugin-image"
+import Seo from "../components/seo"
 
 /*
   We're going let's consolidate... just move the carosel and side bar here b.c the caraousel and the blog list are only used for the index anyway 
@@ -9,8 +10,7 @@ import {getImage, GatsbyImage} from "gatsby-plugin-image"
 
 const BlogIndex = ({data}) => {
   const blogs = data.blogs.nodes
-  const projects = data.projects.nodes
-
+  const projects = data.projects.nodes  
   return (
 
     <Layout >
@@ -76,6 +76,7 @@ const BlogIndex = ({data}) => {
 }
 
 export default BlogIndex
+export const Head = () => <Seo title="All posts" />
 
 export const pageQuery = graphql`
   query {
