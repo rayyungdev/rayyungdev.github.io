@@ -42,6 +42,12 @@ const Sidebar = () => {
             <p className='mb-2 font-weight-bold'>
                 Aspiring Software Dev and Data Engineer
             </p>
+            <p className='mb-1 font-weight-bold'>
+                Contact: 
+            </p>
+            <p className='mb-1 font-italic'>
+                Raymond.Yung@Drexel.edu
+                </p>
             <div className = "d-flex justify-content-center mb-5"> 
                 <Link 
                     to = {`https://www.linkedin.com/in/${data.site.siteMetadata.social.linkedin}`}
