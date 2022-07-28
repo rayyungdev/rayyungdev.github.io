@@ -13,6 +13,12 @@ module.exports = {
       github: 'rayyungdev', 
       linkedin: 'raymond-yung-914559120/'
     },
+    description: `Hi! This is my blog that I hope will showcase my personal development and help me accomplish my future career aspirations`, 
+    siteUrl: 'https://rayyungdev.github.io/', 
+    author:{
+      name: 'Raymond Yung',
+      summary: 'Just a guy who wants to get a job.'
+    }
   },
   plugins: [
     `gatsby-plugin-image`,
