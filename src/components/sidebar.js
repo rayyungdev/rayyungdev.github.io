@@ -46,7 +46,7 @@ const Sidebar = () => {
                 Contact: 
             </p>
             <p className='mb-1 font-italic'>
-                Raymond.Yung@Drexel.edu
+                Raymond.Yung@drexel.edu
                 </p>
             <div className = "d-flex justify-content-center mb-5"> 
                 <Link 
