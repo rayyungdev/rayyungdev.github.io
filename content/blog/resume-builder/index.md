@@ -47,11 +47,10 @@ So my plan is this: I'm going to create a csv file where each row represents a p
 1. Start Date
 2. End Date
 3. Project/Job Title
-4. Project/Job specification
+4. Project or Job 
 5. Relevant tags
 6. Company Name (will be empty if it's a project)
-7. Job title (will be empty if it's a project)
-8. Contains the details of the project/job
+7. Contains the details of the project/job
     - Might separate these details into their own columns
     - Might think about using intent classification in the future to classify the details to the intent (will only work if I have a multitude of descriptors) 
   
