@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Hi! This is my blog that I hope will showcase my personal development and help me accomplish my future career aspirations]]></description><link>https://rayyungdev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 28 Jul 2022 21:52:41 GMT</lastBuildDate><item><title><![CDATA[Chatbot Model Complete]]></title><description><![CDATA[Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayyungdev Blog]]></title><description><![CDATA[Hi! This is my blog that I hope will showcase my personal development and help me accomplish my future career aspirations]]></description><link>https://rayyungdev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 29 Jul 2022 04:38:53 GMT</lastBuildDate><item><title><![CDATA[Resume Builder]]></title><description><![CDATA[Recently, it has come to my attention that I’ve been spending too much time trying to build my chatbot and not enough time on fixing resume…]]></description><link>https://rayyungdev.github.io/blogs/resume-builder/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/resume-builder/</guid><pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; What is it this time...? &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt;  
+&lt;p&gt;Recently, it has come to my attention that I’ve been spending too much time trying to build my chatbot and not enough time on fixing resume and applying to jobs. Remember, I got started on these projects so that I would have something to show for on my resume. Now that I have a working website and a working model for my bot (&lt;em&gt;although I haven’t integrated it yet…&lt;/em&gt;), I should really now focus on fixing my resume.&lt;/p&gt;
+&lt;h3&gt;&lt;em&gt;10 Minutes Later…&lt;/em&gt;&lt;/h3&gt;
+&lt;figure align=&quot;center&quot;&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/7bf2b06f96e8b53ad03d359e873b5975/e9f84/bernie.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 74.68354430379746%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgP/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGN16i4JAf/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADIRIT/9oACAEBAAEFAg/M9wIbtZwzhaxBZn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFX/8QAGhAAAQUBAAAAAAAAAAAAAAAAAAERITEycf/aAAgBAQAGPwKTpIy0xpSj/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERMSGRobH/2gAIAQEAAT8hs1H4UFRODI9oMyikSU0f/9oADAMBAAIAAwAAABC//wD/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QEyy//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARITGRQVFhcf/aAAgBAQABPxCucZFKvIaUOq56+/nEQsbAL8psl73vTEHBwu8OpeFtatln/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;bernie&quot; title=&quot;bernie&quot; src=&quot;/static/7bf2b06f96e8b53ad03d359e873b5975/828fb/bernie.jpg&quot; srcset=&quot;/static/7bf2b06f96e8b53ad03d359e873b5975/ff44c/bernie.jpg 158w,
+/static/7bf2b06f96e8b53ad03d359e873b5975/a6688/bernie.jpg 315w,
+/static/7bf2b06f96e8b53ad03d359e873b5975/828fb/bernie.jpg 630w,
+/static/7bf2b06f96e8b53ad03d359e873b5975/e9f84/bernie.jpg 672w&quot; sizes=&quot;(max-width: 630px) 100vw, 630px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;You see, I have gotten a lot of advice on how to fix my resume to find the &lt;em&gt;&lt;strong&gt;perfect job&lt;/strong&gt;&lt;/em&gt;. My current resume (which can be found on my side bar) isn’t particularly outstanding. As my friend Xi has put it:&lt;/p&gt;
+&lt;figure align=&quot;center&quot;&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 585px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/952b97b28778ad535ce035fd2b797a7a/52eca/friend.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 19.62025316455696%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdaQsD//xAAWEAADAAAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAQUCIv/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABcQAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQEAAT8hAyxBy//aAAwDAQACAAMAAAAQ+C//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAQ/9oACAEBAAE/EHB4ERN//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;friend&quot; title=&quot;friend&quot; src=&quot;/static/952b97b28778ad535ce035fd2b797a7a/52eca/friend.jpg&quot; srcset=&quot;/static/952b97b28778ad535ce035fd2b797a7a/ff44c/friend.jpg 158w,
+/static/952b97b28778ad535ce035fd2b797a7a/a6688/friend.jpg 315w,
+/static/952b97b28778ad535ce035fd2b797a7a/52eca/friend.jpg 585w&quot; sizes=&quot;(max-width: 585px) 100vw, 585px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;div&gt;&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;In other words: &lt;strong&gt;it’s ugly&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Furthermore, I was told I should tailor my resume to the different roles I’m going to apply to. So if I’m applying to a web development role, I try to present only my web development projects (&lt;em&gt;which really is just this blog…&lt;/em&gt;). Now upon realizing that I have to create multiple resumes that have only small changes to each one, I find myself being overwhelmed with too many options! Are my previous job experiences more important? Which projects should I prioritize? Recent ones, most relevant ones? There’s just so many. Now how many different resumes am I supposed to create? Ahhhh!!!&lt;/p&gt;
+&lt;p&gt;Anyway, now that I understand the basic aspects of web-development, I wondered why isn’t there something like a static-site-generator for resumes?. All resumes generally have practically the same layout, right? They all have headers, an education section, whatever. All I would then update is the experience sections, right? But… now that I think about it, even it something like that were to exist, it wouldn’t really be tailed to my own experiences…&lt;/p&gt;
+&lt;p&gt;Long story short, I’m taking a break from trying to integrate my chatbot to create my own resume building program. I figured, trying to integrate these things is gonna take a bit and I really want to apply to jobs. Also this resume builder shouldn’t take too long since I won’t need to integrate that to my blog. Once it’s done, it’s done. My hope is that it’ll streamline future job applications.&lt;/p&gt;
+&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; Building the Builder &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
+&lt;p&gt;Like I did with my chatbot, I’m going to think about this in two parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;How am I going to structure my data&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This seems more important since I need to know exactly what data I’m pulling and how I might go about that&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Building the actual program&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Well, seems less important at the moment because I at least know what my end result will be.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;&lt;strong&gt;Part 1:&lt;/strong&gt; Structuring the Data&lt;/h4&gt;
+&lt;p&gt;The idea for this project is also inspired by what I learned previously about intent classification. While I don’t plan building a learning model for it… &lt;em&gt;yet&lt;/em&gt;, I think a good way to go about this is by tagging my projects and experiences with intents. Speaking of projects and experiences, I’ve been told that experience is more important than personal projects, but relevant projects beat random experience, and relevant experience triumphs over all. Plainly speaking, we have an inherent hierarchy to utilize!&lt;br&gt;
+So my plan is this: I’m going to create a csv file where each row represents a project/job that I’ve done. The row is then divided into the following columns:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Start Date&lt;/li&gt;
+&lt;li&gt;End Date&lt;/li&gt;
+&lt;li&gt;Project/Job Title&lt;/li&gt;
+&lt;li&gt;Project/Job specification&lt;/li&gt;
+&lt;li&gt;Relevant tags&lt;/li&gt;
+&lt;li&gt;Company Name (will be empty if it’s a project)&lt;/li&gt;
+&lt;li&gt;Job title (will be empty if it’s a project)&lt;/li&gt;
+&lt;li&gt;Contains the details of the project/job
+&lt;ul&gt;
+&lt;li&gt;Might separate these details into their own columns&lt;/li&gt;
+&lt;li&gt;Might think about using intent classification in the future to classify the details to the intent (will only work if I have a multitude of descriptors)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Alright… So in hindsight, I think I might’ve oversimplified my solution a bit. After looking at my friend’s resumes, I realized that I completely glossed over other sections, like &lt;em&gt;Skills&lt;/em&gt;, &lt;em&gt;Certificates&lt;/em&gt;(although I have none… oops), and &lt;em&gt;Relevant Coursework&lt;/em&gt;. I forgot that these sections (for the most part), can also be tailored to the job description. This might be the imposter syndrome talking, but I don’t think I’ve developed enough skills to really pick and choose which ones I can throw on there, but hey, I gotta start thinking about future me, right? I am sure future me will be a whole variety of skills for future career aspirations. This is for you Future Ray!&lt;/p&gt;
+&lt;p&gt;Anyway, let’s do this. I’m going to create a Skills CSV. It will contain the following columns:&lt;br&gt;
+Programming Languages, Software &amp;#x26; Tools, Technical Skills, and Certificates.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If I find out that I actually have “too many” skills and I might try to create another intent classification model to identify the most relevant skills.&lt;/li&gt;
+&lt;li&gt;My friend Trung suggested that I add some of my relevant coursework for my technical skills.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;strong&gt;Part 2:&lt;/strong&gt; Building the program&lt;/h4&gt;
+&lt;p&gt;So… I haven’t gotten this started yet (since I haven’t even gotten my data built yet)… Stay tuned for a project update for this procrasination project!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Chatbot Model Complete]]></title><description><![CDATA[Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
 First, I…]]></description><link>https://rayyungdev.github.io/blogs/bot-build-followup/</link><guid isPermaLink="false">https://rayyungdev.github.io/blogs/bot-build-followup/</guid><pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 class=&quot;font-italic font-weight-bold&quot; align=&quot;center&quot;&gt; Build a Bot Update! &lt;hr color=&quot;blue&quot; width=&quot;70%&quot; align=&quot;center&quot; style=&quot;margin: auto auto auto&quot;&gt; &lt;/h2&gt; 
 &lt;p&gt;Alright, I am officially FINISHED with my first model. There’s a lot of improvements to be made, but let me tell you my process.
 First, I had to understand what my goal and objective, but you can read about that in my previous blog post, link [&lt;em&gt;here&lt;/em&gt;]{&lt;a href=&quot;https://rayyungdev.github.io/blogs/bot-builder/%7D&quot;&gt;https://rayyungdev.github.io/blogs/bot-builder/}&lt;/a&gt;. Once I figured out that I wanted to an intent classification model, I had to learn about how those models were built.&lt;/p&gt;
