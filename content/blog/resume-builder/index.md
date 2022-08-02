@@ -84,6 +84,8 @@ Regarding the RESTful API, I feel like this program would really benefit from it
   
 ##### *Unaccomplished Objectives:*
 First of all, I think my resume looks pretty decent. However, I haven't fully implemented my skills section. I'm missing key technologies that I've utilized over the years, like frameworks, libraries, toolboxes, etc. This is all the data contained in _languages.csv_. I don't really have a good reason why it hasn't been included yet... really I'm just tired and I'm moderately satisfied with how my resume looks at the moment. But who knows, I might be more sane when I wake up tomorrow.  
-Also, I have not built a classification model (**yet**). Originally, I was thinking about creating a classification model that would pull the most relevant skills according to what your input tags are, but it also had also occured to me that well, I don't have that many skills to go picking and choosing. That being said, I haven't given up on this idea, but it does require more thought.  
+Also, I have not built a classification model (**yet**). Originally, I was thinking about creating a classification model that would pull the most relevant skills according to what your input tags are, but it also had also occured to me that well, I don't have that many skills to go picking and choosing. That being said, I haven't given up on this idea, but it does require more thought. 
 
-## Good Night and stay tune for future updates!
+
+I'll add more updates to the actual project section, but as of now, this particular post is hereby concluded :)  
+Back to trying to integrate the webserver... (and look for jobs)
