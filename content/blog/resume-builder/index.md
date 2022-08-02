@@ -1,6 +1,6 @@
 ---
 title: Resume Builder
-date: "2022-07-28"
+date: "2022-08-01"
 description: I am taking a short hiatus from building my interview-bot in order to focus on developing my resume and actually submit job applications. However, I find myself once again being overwhelmed because not only am I bad at interviews. I am also bad at organizing my own resume. So instead, I'm going to create a program to help me. 
 featuredImage: './bernie.jpg'
 parent: blog
@@ -62,5 +62,28 @@ Anyway, let's do this. I'm going to create a Skills CSV. It will contain the fol
 - My friend Trung suggested that I add some of my relevant coursework for my technical skills. 
 
 #### **Part 2:** Building the program
+Okay, I have successfully created my program and now I would love to get into some discussion about how I went about this. That being said, I'm going to have to update my recent projects too! Woo!  
 
-So... I haven't gotten this started yet (since I haven't even gotten my data built yet)... Stay tuned for a project update for this procrasination project!
+Building this application was a fun experience and I'm glad I took the time to think about how I was structuring my data. I ended up having to create 4 different csvs, where each csv contained different information for each subsection in my resume. I could have hard coded some of the basic information like my name and education but I figured maybe someone likes my idea and wants to try it out?   
+  
+Anyway, back to my thought processing when creating this application:  
+I started this by trying to figure out how to design a resume through Python. There are a lot of options out there, like using a LaTeX template then trying to figure out how to populate the necessary information python, but I figured that was going to get too complicated too quickly, because I thought I would have to manually design a LaTeX template first then find the right libaries to input the correct information. Instead, I opted to use FPDF2, a pdf library for python. I didn't think the aesthetic appeal mattered that much in regards to my resume, especially since this is my first template. If I focused too much making it perfect, I probably would have called it quits. So thus template_1 was born. You can view my original template layout [***here***](https://github.com/rayyungdev/resume_builder/blob/main/template_1.pdf)  
+  
+  
+Once I confirmed that my template was completed, I had to make sure that I knew how to input the necessary data, which you can read about in my comments. This is important because the next step was what I called the builder, which is an object class that pulls the necessary the information from the different csvs. I'm not going to go into too much detail because that's meant for the actual project section. Instead, I'm going to talk about things that I don't like about my project, future fixes, and unaccomplished objectives.  
+  
+##### *Things I don't like:*  
+I hate that I have to use 4 different csvs and furtheremore I hate how I laid them out. Don't get me wrong, I'm glad that it works, but it is definitely not the optimal solution. Remember, I plan on using this program in the future as I continue down my career path. This means that every time I learn something, I will have to manually update these microscopic cells in excel. Sure, sure I can create python functions/scripts whatever, but either way I'm still going to hate it. This now lets me segway into:   
+  
+##### *Future Fixes:*
+So from before, I hate that I have to use 4 different csvs. What I hope to accomplish instead are two things: 
+1. Convert my csvs into YAML files and create a YAML method
+2. Create a RESTFUL API   
+Admittedly, I don't know too much about YAML, but I just love how YAML files look. They look like they can be more easily organized and most impressively, YAML files can act almost as a pseudo python class or at least I think so from what I can gather from the docs (https://pyyaml.org/wiki/PyYAMLDocumentation#constructors-representers-resolvers) (*Thank you Andy for suggesting this*). Also, I would just love to have another method to add onto my ***list of experience***.  
+Regarding the RESTful API, I feel like this program would really benefit from it. It would allow me to update the different details of my jobs whenever I want, fix typos quickly, and whatever. Plus, I also get to add "designed an API" onto my list of skills too. I'm sure there's more benefits, but it's 1:09 AM and I'm tired as hell.  
+  
+##### *Unaccomplished Objectives:*
+First of all, I think my resume looks pretty decent. However, I haven't fully implemented my skills section. I'm missing key technologies that I've utilized over the years, like frameworks, libraries, toolboxes, etc. This is all the data contained in _languages.csv_. I don't really have a good reason why it hasn't been included yet... really I'm just tired and I'm moderately satisfied with how my resume looks at the moment. But who knows, I might be more sane when I wake up tomorrow.  
+Also, I have not built a classification model (**yet**). Originally, I was thinking about creating a classification model that would pull the most relevant skills according to what your input tags are, but it also had also occured to me that well, I don't have that many skills to go picking and choosing. That being said, I haven't given up on this idea, but it does require more thought.  
+
+## Good Night and stay tune for future updates!

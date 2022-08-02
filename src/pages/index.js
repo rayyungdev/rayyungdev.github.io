@@ -112,7 +112,8 @@ export const pageQuery = graphql`
 
     projects: allMarkdownRemark(
       filter: {frontmatter: {parent: {eq: "projects"}}}
-      sort: { fields: [frontmatter___date], order: DESC }) {
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1) {
       nodes {
         excerpt
         fields {
