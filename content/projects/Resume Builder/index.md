@@ -9,17 +9,18 @@ parent: projects
 ## **Background**
 If you want to learn more about how this project came to be, please check it out [**here**](https://rayyungdev.github.io/blogs/resume-builder/)
 
-## **Updates** :
-  -  ***(8/08/2022)***
+## **Updates** :  
+-  ***(8/08/2022)***  
     - No longer need language.csv. Instead, we can have skill directly added into the experiences.csv
     - Created yaml file and new yaml file builder
     - combined the two templates instead.. it was unnecessary (may change this later see future updates 
     - Updated main.py to call it from command line
-
-  - ***(8/02/2022)***
-    - Added a 'new' template to my list of resumes. It's basically the same as the old template, except that there's an added skill section per project . 
-        - This might mean that I can remove the language.csv file because my new method seemingly has the same intention.   
-## Future Updates
+<div> </div>
+  
+- ***(8/02/2022)***  
+  - Added a 'new' template to my list of resumes. It's basically the same as the old template, except that there's an added skill section per project . 
+      - This might mean that I can remove the language.csv file because my new method seemingly has the same intention.   
+## ***Future Updates***
   - Might fix up template to have inheritable classes for future templates (maintain consistency)
   - Planning on first doing some NLP tasks to pull/sort skills that are the most related to the key search terms (Check the github for details)
 
