@@ -10,6 +10,9 @@ parent: projects
 If you want to learn more about how this project came to be, please check it out [**here**](https://rayyungdev.github.io/blogs/resume-builder/)
 
 ## **Updates** :  
+- ***(8/09/2022)***
+  - added markdown functionality for details, city, and subheader info
+  
 -  ***(8/08/2022)***  
     - No longer need language.csv. Instead, we can have skill directly added into the experiences.csv
     - Created yaml file and new yaml file builder
