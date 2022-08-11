@@ -5,8 +5,12 @@ description: In this section I'm going to discuss a new Direction for implementi
 featuredImage: './resume.jpg'
 parent: blog
 ---
+
 <h2 class="font-italic font-weight-bold" align="center"> The Penultimate Chapter of Interview Bot<hr color="blue" width="70%" align="center" style="margin: auto auto auto"> </h2> 
 
+_Previous Posts in this sage: [**Part 1 Beginning**](https://rayyungdev.github.io/blogs/bot-builder/), [**Part 2: Follow Up**](https://rayyungdev.github.io/blogs/bot-build-followup/)_  
+  
+  
 Before I took a hiatus from working on my interview bot, I was trying to create and set up a websocket to integrate the bot as another feature on my site. That process would involved me setting up an websocket API on the backend, hosted on a server somewhere, then I would have had to design the actual react component on my site to make those calls. And I have to say, I was close to completing it.   
   
 I had gotten my API set up with Flask, built a working websocket, and had a basic template set up with HTML. Just to show that I'm not lying to you, I've attached a photo of the websocket working below. You can also see the branch that I was working on that [**here**](https://github.com/rayyungdev/interview-bot/tree/chatapp)  
