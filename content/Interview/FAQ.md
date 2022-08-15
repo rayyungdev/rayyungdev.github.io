@@ -15,3 +15,7 @@ I should probably throw this into an actual post instead of updating this here, 
 - [**Bot Builder**](https://rayyungdev.github.io/blogs/bot-builder/)
 
 Right now I'm working on a way to integrate my python script into a chatbot component that you can interact with here... 
+
+<div class = 'd-flex justify-content-center mb-5' >
+<a href = 'https://discord.gg/U6pdQSUrYX' class = 'mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold'> Click Here! </a>
+</div>

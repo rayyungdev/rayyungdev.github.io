@@ -66,7 +66,8 @@ const Sidebar = () => {
                 <a href = {resume} className='btn btn-lg btn-block btn-primary mt-auto'> My Resume </a>
             </div>
             <div className="d-flex justify-content-center mb-5">
-                <Link to = {`${data.interview.fields.slug}`} className='btn btn-lg btn-block btn-primary mt-auto'> Interview FAQ's </Link>
+                <Link to = {'https://discord.gg/U6pdQSUrYX'} className='btn btn-lg btn-block btn-primary mt-auto'> Interview-Bot Discord </Link>
+                {/* <Link to = {`${data.interview.fields.slug}`} className='btn btn-lg btn-block btn-primary mt-auto'> Interview FAQ's </Link> */}
             </div>
         </div>
     </div>  
