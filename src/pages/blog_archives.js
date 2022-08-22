@@ -34,7 +34,7 @@ const BlogIndex = ({data}) => {
                                 />
                             </div>
                             <div className="col-md-7 position-relative">
-                                <h3 className="text-md-center px-md-3 mb-2 bg-white font-weight-bold">{title}</h3>
+                                <h3 className="text-md-left px-md-3 mb-2 bg-white font-weight-bold">{title}</h3>
                                 <div className="d-flex mb-3">
                                     <small className="mr-2 text-muted">{post.frontmatter.date}</small>
                                 </div>
