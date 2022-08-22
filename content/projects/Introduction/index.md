@@ -1,8 +1,10 @@
 ---
-title: The Gatsby Migration
+title: Migrating to React/Gatsby
 date: "2022-07-07"
 featuredImage: './carousel.jpg'
 template: blogtemplate
+description: Learning React and converting basic HTML templates to React
+github: https://github.com/rayyungdev/rayyungdev.github.io
 parent: projects
 ---
 

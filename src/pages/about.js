@@ -2,14 +2,17 @@ import React from "react"
 import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import Header from "../components/header"
+
 const about = () => {
   return (
     <Layout>
-        <Header/>
+        <Header location = 'About Me'/>
+        <div className = 'container bg-white pt-5 mb-2'>
+
             <div className="container bg-white pt-5">
-                <div className="row px-3 pb-5">
-                    <div className="col-md-12">
-                        <h2 className="mb-4 font-weight-bold"> Recent Drexel Graduate and Aspiring Software Dev! </h2>
+                <div className="row">
+                    <div className="col-sm-10">
+                        <h2 className="mb-4 font-weight-bold text-center"> Recent Drexel Graduate and Aspiring Software Dev! </h2>
                         <StaticImage 
                             className="img-fluid float-left w-50 mr-4 mb-3"
                             src="../img/about.jpg" 
@@ -30,6 +33,7 @@ const about = () => {
                         </p> 
                     </div>
                 </div>
+            </div>
             </div>
     </Layout>
   )

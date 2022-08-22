@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Navi = (data, location) => {
+const Navi = () => {
     return (
     <div className='container p-0'>
         <nav className= "navbar navbar-expand-lg bg-secondary navbar-dark justify-content-center"> 
@@ -13,14 +13,31 @@ const Navi = (data, location) => {
                     <Link 
                         to = '/'
                         className='nav-item nav-link'
+                        activeClassName='active'
                     >
                         Home
                     </Link>
                     <Link 
                         to = '/about'
                         className='nav-item nav-link'
+                        activeClassName='active'
+
                     >
                         About
+                    </Link>
+                    <Link
+                        to = '/project_archives'
+                        className = 'nav-item nav-link'
+                        activeClassName='active'
+                    >
+                        Projects
+                    </Link>
+                    <Link
+                        to = '/blog_archives'
+                        className = 'nav-item nav-link'
+                        activeClassName='active'
+                    >
+                        Blog Archives
                     </Link>
                 </div>
             </div>

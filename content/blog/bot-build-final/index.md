@@ -1,7 +1,7 @@
 ---
 title: Chatbot - Final 
 date: "2022-08-14"
-description: The Final Chatbot Chapter
+description: Here I discuss what changes I made to chatbot, the different implementations and future ideas
 featuredImage: './resume.jpg'
 parent: blog
 ---

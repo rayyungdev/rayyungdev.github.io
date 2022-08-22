@@ -4,6 +4,8 @@ date: "2022-08-01"
 featuredImage: './cat_circle.jpg'
 template: blogtemplate
 parent: projects
+description: Project Updates for my Resume Builder 
+github: https://github.com/rayyungdev/resume_builder
 ---
 
 ## **Background**
