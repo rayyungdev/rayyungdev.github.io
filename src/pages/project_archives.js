@@ -59,7 +59,7 @@ const project_index = ({data}) => {
 }
 
 export default project_index
-export const Head = () => <Seo title="All Project Posts" />
+export const Head = () => <Seo title="RayYungDev Personal Blog / Project Archives" />
 
 export const pageQuery = graphql`
   query {
