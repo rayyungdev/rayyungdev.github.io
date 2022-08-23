@@ -102,7 +102,7 @@ const Home = ({data}) => {
 }
 
 export default Home
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="RayYungDev Personal Blog / Home" />
 
 export const pageQuery = graphql`
   query {

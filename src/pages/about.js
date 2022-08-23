@@ -8,10 +8,9 @@ const about = () => {
     <Layout>
         <Header location = 'About Me'/>
         <div className = 'container bg-white pt-5 mb-2'>
-
             <div className="container bg-white pt-5">
                 <div className="row">
-                    <div className="col-sm-10">
+                    <div className="col-lg-12">
                         <h2 className="mb-4 font-weight-bold text-center"> Recent Drexel Graduate and Aspiring Software Dev! </h2>
                         <StaticImage 
                             className="img-fluid float-left w-50 mr-4 mb-3"

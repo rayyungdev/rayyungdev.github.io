@@ -10,10 +10,10 @@ github: https://github.com/rayyungdev/interview-bot
 
 ## **Background**
 If you want to learn more about how this project came to be, please check it out : 
-  - [**Part 1 Beginning**](https://rayyungdev.github.io/blogs/bot-builder/)
-  - [**Part 2: Follow Up**](https://rayyungdev.github.io/blogs/bot-build-followup/)
-  - [**Part 3: Penultimate**](https://rayyungdev.github.io/blogs/bot-build-penultimate/)
-  - [**Part 4: Final**](https://rayyungdev.github.io/blogs/bot-build-final/)
+  - [**Part 1 Beginning**](/blogs/bot-builder/)
+  - [**Part 2: Follow Up**](/blogs/bot-build-followup/)
+  - [**Part 3: Penultimate**](/blogs/bot-build-penultimate/)
+  - [**Part 4: Final**](/blogs/bot-build-final/)
 
 Try out the different implementations here: 
  - Discord : [**HERE**](https://discord.gg/U6pdQSUrYX)

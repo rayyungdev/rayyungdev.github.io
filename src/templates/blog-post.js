@@ -1,5 +1,6 @@
 import * as React from "react"
 import {graphql, Link} from "gatsby"
+import Header from "../components/header"
 
 import Layout from "../components/Layout"
 
@@ -9,32 +10,26 @@ const BlogPostTemplate = ({ data }) => {
 
     return(
         <Layout>
-              <div className = "container py-2 px-2 bg-primary" >
-                <div className = "row py-2 px-2 justify-content-center">
-                <header>
-                    <h1 itemProp="headline" className="text-white font-weight-bold">{post.frontmatter.title}</h1>
-                </header>
-                </div>
-                </div>
-                <div className = "container py-5 px-2 bg-white"> 
-                  <article className="blog-post" itemScope itemType = "http://schema.org/Article">
-                    <p align="right">{post.frontmatter.date}</p>
-                    <div class="row px-4">
-                        <div class="col-12">
-                        <section
-                        dangerouslySetInnerHTML={{ __html: post.html }}
-                        itemProp="articleBody"
-                        />
-                        </div>
-                    </div>
-                    <div className="col-12 py-4">
-                      <div className="btn-group btn-group-lg w-100">
-                        {previous && <Link to = {previous.fields.slug} className="btn btn-outline-primary"><i className="fa fa-angle-left mr-2"></i> Previous</Link>}
-                        {next && <Link to = {next.fields.slug} type="button" className="btn btn-outline-primary">Next<i className="fa fa-angle-right ml-2"></i></Link>}
-                      </div> 
-                    </div>
-                  </article>
-                </div>
+          <Header location = {post.frontmatter.title} />
+          <div className = "container py-5 px-2 bg-white"> 
+            <article className="blog-post" itemScope itemType = "http://schema.org/Article">
+              <p align="right">{post.frontmatter.date}</p>
+              <div class="row px-4">
+                  <div class="col-12">
+                  <section
+                  dangerouslySetInnerHTML={{ __html: post.html }}
+                  itemProp="articleBody"
+                  />
+                  </div>
+              </div>
+              <div className="col-12 py-4">
+                <div className="btn-group btn-group-lg w-100">
+                  {previous && <Link to = {previous.fields.slug} className="btn btn-outline-primary"><i className="fa fa-angle-left mr-2"></i> Previous</Link>}
+                  {next && <Link to = {next.fields.slug} type="button" className="btn btn-outline-primary">Next<i className="fa fa-angle-right ml-2"></i></Link>}
+                </div> 
+              </div>
+            </article>
+          </div>
         </Layout>
     )
 }
