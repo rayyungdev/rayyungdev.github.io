@@ -55,7 +55,7 @@ const BlogIndex = ({data}) => {
 }
 
 export default BlogIndex
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="RayYungDev Personal Blog / Blog Archives" />
 
 export const pageQuery = graphql`
   query {
