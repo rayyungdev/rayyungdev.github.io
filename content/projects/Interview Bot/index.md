@@ -5,7 +5,7 @@ featuredImage: './Twilight.jpg'
 template: blogtemplate
 parent: projects
 description: Project Updates for Interview-Bot. Created Discord and Web-App Implementation 
-github: https://github.com/rayyungdev/interview-bot
+github: https://github.com/rayyungdev/interview-bot-consolidated
 ---
 
 ## **Background**
