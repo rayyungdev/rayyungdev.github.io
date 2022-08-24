@@ -19,7 +19,7 @@ const project_index = ({data}) => {
   const projects = data.projects.nodes
   return (
     <Layout >
-      <Header location = 'Project Archive' /> 
+      <Header location = 'Projects' /> 
       <div className = "container bg-white pt-5 mb-2 py-2"> 
             <h4 className = 'text-center'> This section contains the projects that I discussed in my blog posts. You can view the complete list of all my projects, including those that I worked on in school,on my github </h4>
       </div>

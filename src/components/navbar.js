@@ -37,7 +37,7 @@ const Navi = () => {
                         className = 'nav-item nav-link'
                         activeClassName='active'
                     >
-                        Blog Archives
+                        Blog
                     </Link>
                 </div>
             </div>
